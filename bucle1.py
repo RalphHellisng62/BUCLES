@@ -6,10 +6,10 @@ Por ejemplo 5! = 1x2x3x4x5=120)
 '''
 print("Calcular Factorial ")
 
-n = int(input("Escribe un numero: "))
+num = int(input("Escribe un numero: "))
 fact = 1
 for i in range (1,n + 1):
     fact *= i 
     
     
-print(f"El factorial de {n} es {fact}")
+print(f"El factorial de {num} es {fact}")
